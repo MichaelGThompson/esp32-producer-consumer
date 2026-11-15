@@ -1,0 +1,35 @@
+I button interrupt: --- external interrupt enqueued event ---
+I (7884) producer-consumer-demo: --- dequeued event_id: 0 ---
+I (7884) fsm for LEDs: [Action] Modifying pins -> RED ONLY
+
+I button interrupt: --- external interrupt enqueued event ---
+I (8884) producer-consumer-demo: --- dequeued event_id: 1 ---
+I (8884) fsm for LEDs: [Action] Modifying pins -> GREEN ONLY
+
+I button interrupt: --- external interrupt enqueued event ---
+I (8984) producer-consumer-demo: --- dequeued event_id: 2 ---
+I (8984) fsm for LEDs: [Action] Driving outputs -> ALL ON
+
+I button interrupt: --- external interrupt enqueued event ---
+I (10034) producer-consumer-demo: --- dequeued event_id: 3 ---
+I (10034) fsm for LEDs: [Action] Clearing outputs -> ALL OFF
+
+I button interrupt: --- external interrupt enqueued event ---
+I (10134) producer-consumer-demo: --- dequeued event_id: 4 ---
+I (10134) fsm for LEDs: [Action] Modifying pins -> RED ONLY
+
+I button interrupt: --- external interrupt enqueued event ---
+I (11234) producer-consumer-demo: --- dequeued event_id: 5 ---
+I (11234) fsm for LEDs: [Action] Modifying pins -> GREEN ONLY
+
+I button interrupt: --- external interrupt enqueued event ---
+I (12084) producer-consumer-demo: --- dequeued event_id: 6 ---
+I (12084) fsm for LEDs: [Action] Driving outputs -> ALL ON
+
+I button interrupt: --- external interrupt enqueued event ---
+I (12884) producer-consumer-demo: --- dequeued event_id: 7 ---
+I (12884) fsm for LEDs: [Action] Clearing outputs -> ALL OFF
+
+I button interrupt: --- external interrupt enqueued event ---
+I (13734) producer-consumer-demo: --- dequeued event_id: 8 ---
+I (13734) fsm for LEDs: [Action] Modifying pins -> RED ONLY
