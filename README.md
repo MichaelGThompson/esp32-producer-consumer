@@ -1,6 +1,6 @@
 # Sample Producer-Consumer App (ESP32-C6)
 
-This application is a simple example of a single producer (the button triggering an event), consumer (finite state machine) with no real need for an event dispatcher) and also 
+This application is a simple example of a single producer (the button triggering an event), single consumer (finite state machine) with no real need for an event dispatcher) and also 
 a board support package (in this case, handling the two LEDs). 
 
 Logic analyzer output shown below - clearly shows the signal representations of the LEDs and button presses after manually pressing the button. As per the title, channel 0 
