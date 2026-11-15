@@ -1,0 +1,6 @@
+idf_component_register(
+    SRCS "fsm.c"
+    INCLUDE_DIRS "include"
+    REQUIRES freertos esp_common 
+    PRIV_REQUIRES bsp
+)
