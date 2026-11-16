@@ -1,7 +1,7 @@
 # Sample Producer-Consumer App (ESP32-C6)
 
 This application is a simple example of a single producer (the button triggering an event), single consumer (finite state machine) with no real need for an event dispatcher) and also 
-a board support package (in this case, handling the two LEDs). 
+a board support package for the LEDs and button (using the same approach to the BSP as with the STM32 nucleo boards).
 
 Logic analyzer output shown below - clearly shows the signal representations of the LEDs and button presses after manually pressing the button. As per the title, channel 0 
 represents the RED Led, channel 1 is the GREEN Led and channel 2 is the button (which triggers the interrupt on the falling edge). This can be examined in conjunction with 
